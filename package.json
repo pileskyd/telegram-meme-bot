@@ -1,0 +1,16 @@
+{
+  "name": "telegram-meme-bot",
+  "module": "./src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prisma": "^5.16.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.16.1",
+    "telegraf": "^4.16.3"
+  }
+}
